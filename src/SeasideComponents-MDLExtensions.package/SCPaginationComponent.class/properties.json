@@ -1,0 +1,16 @@
+{
+	"category" : "SeasideComponents-MDLExtensions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "CyrilFerlicot 7/14/2016 15:39",
+	"instvars" : [
+		"currentPage",
+		"numberOfPages",
+		"adjacentsPagesToShow" ],
+	"name" : "SCPaginationComponent",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }
