@@ -1,0 +1,14 @@
+{
+	"category" : "SeasideComponents-Tests-MDLExtensions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"component" ],
+	"name" : "SCPaginationComponentTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
