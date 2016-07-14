@@ -1,0 +1,1 @@
+I am a baseline of WebPokedex. Read more at: https://github.com/jecisc/SeasideComponents

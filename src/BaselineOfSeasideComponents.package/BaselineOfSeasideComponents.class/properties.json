@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfSeasideComponents",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "CyrilFerlicot 7/14/2016 16:21",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfSeasideComponents",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
