@@ -1,6 +1,6 @@
 rendering
 renderPaginationComponentOn: html
-	^ html div
+	html div
 		class: #'mdl-pagination__container';
 		with: [ html div
 				class: #'mdl-pagination__pages';
