@@ -1,8 +1,8 @@
 rendering
 renderPagesButtonsOn: html
-	self pagesButtonsToRender do: [ :int | 
-			self currentPage = int
-				ifFalse: [ html anchor
-						callback: [ self currentPage: int ];
-						with: [ html button with: int; yourself ] ]
-				ifTrue: [ html button class: #current; with: int ] ]
+	self pagesButtonsToRender
+		do: [ :int | 
+			html button
+				class: #'mdl-color-text--accent mdl-pagination__current' if: self currentPage = int;
+				onClick: (self ajaxPageChangedCallback: [ self currentPage: int ] from: html) if: self updateBlock isNotNil;
+				with: int ]

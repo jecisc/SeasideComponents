@@ -1,14 +1,15 @@
 {
-	"category" : "SeasideComponents-MDLExtensions",
+	"category" : "SeasideComponents-MDLExtensions-Pagination",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "CyrilFerlicot 7/14/2016 15:39",
+	"commentStamp" : "CyrilFerlicot 8/15/2016 11:59",
 	"instvars" : [
 		"currentPage",
 		"numberOfPages",
-		"adjacentsPagesToShow" ],
+		"adjacentsPagesToShow",
+		"updateBlock" ],
 	"name" : "SCPaginationComponent",
 	"pools" : [
 		 ],

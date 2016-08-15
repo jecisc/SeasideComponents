@@ -1,9 +1,8 @@
 rendering
 renderButtonWithIconNamed: aSymbol callback: aBlock disabledIf: aBoolean on: html
-	html anchor
-		callback: aBlock;
-		with: [ html mdlButton
-				accentColor;
-				icon;
-				disabled: aBoolean;
-				with: [ html mdlIcon: aSymbol ] ]
+	html mdlButton
+		accentColor;
+		icon;
+		disabled: aBoolean;
+		onClick: (self ajaxPageChangedCallback: aBlock from: html) if: (self updateBlock isNotNil and: [ aBoolean not ]);
+		with: [ html mdlIcon: aSymbol ]
