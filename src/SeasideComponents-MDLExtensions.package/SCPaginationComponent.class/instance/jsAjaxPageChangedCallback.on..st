@@ -1,5 +1,5 @@
 javascript
-ajaxPageChangedCallback: callback from: html
+jsAjaxPageChangedCallback: callback on: html
 	^ html jQuery ajax
 		callback: callback;
 		context: (JSStream on: 'this');

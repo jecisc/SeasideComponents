@@ -1,17 +1,16 @@
 {
-	"category" : "SeasideComponents-MDLExtensions-Pagination",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "CyrilFerlicot 8/15/2016 11:59",
+	"super" : "WAComponent",
+	"category" : "SeasideComponents-MDLExtensions-Pagination",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"currentPage",
 		"numberOfPages",
 		"adjacentsPagesToShow",
-		"updateBlock" ],
+		"updateBlock"
+	],
 	"name" : "SCPaginationComponent",
-	"pools" : [
-		 ],
-	"super" : "WAComponent",
-	"type" : "normal" }
+	"type" : "normal"
+}
